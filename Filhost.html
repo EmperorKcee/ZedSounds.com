@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZedSounds Upload</title>
+    <link rel="stylesheet" href="Filehost.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>ZedSounds Upload</h1>
+        <p>Upload your files securely and share them with the world.</p>
+        <form id="uploadForm" action="upload.php" method="POST" enctype="multipart/form-data">
+            <input type="file" id="fileInput" name="file" required>
+            <button type="submit">Upload File</button>
+            <a href="Business.html">Home</a>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="Filehost.js"></script>
+</body>
+</html>
